@@ -1,0 +1,99 @@
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0 20px;
+    }
+    #nav_container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    #banner_container {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    #banner_container {
+        flex-direction: column;
+    }
+    .banner_header h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .Abstract_image img {
+        display: none;
+    }
+    .banner_body {
+        font-size: 16px;
+    }
+    .order_now_btn {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .order_process_btn {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .banner_card_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #contract_container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contract_card {
+        border: 2px solid #b6b6b6;
+        padding: 25px;
+    }
+    .food_items_title h3 {
+        font-size: 30px;
+    }
+    .food_cards_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .food_items_title h3 {
+        font-size: 30px;
+    }
+    .food_cards_container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service_title h1 {
+        font-size: 26px;
+        font-weight: 800;
+    }
+    .service_card_container {
+        flex-direction: column;
+    }
+    .testimonial_card_container {
+        flex-direction: column;
+    }
+    .testimonial_card_image img {
+        width: 350px;
+        height: 300px;
+    }
+    .review_container {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        flex-direction: column;
+    }
+    .review_title h2 {
+        font-size: 30px;
+    }
+    .review_button {
+        margin-top: 20px;
+    }
+    .footer_container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_social_media {
+        margin: 20px 0px;
+    }
+    .footer_user_link {
+        margin: 20px 0px;
+    }
+    #Fotter_con_btn {
+        margin-bottom: 40px;
+    }
+}

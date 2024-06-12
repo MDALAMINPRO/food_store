@@ -1,0 +1,200 @@
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+         * {
+             margin: 0;
+             padding: 0;
+         }
+         
+         body {
+             margin: 0 45px;
+             font-family: "Montserrat", sans-serif;
+         }
+         /* Nav Section Start */
+         
+         #nav_container {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             margin-top: 15px;
+         }
+         
+         #nav_container ul {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             gap: 15px;
+         }
+         
+         #nav_container ul li {
+             list-style: none;
+         }
+         
+         #nav_container ul li a {
+             text-decoration: none;
+             font-size: 20px;
+             font-weight: 600;
+             color: #000;
+         }
+         
+         #nav_container ul li a:hover {
+             border-bottom: 2px solid #e67e22;
+         }
+         
+         .form_title button {
+             outline: none;
+             border: none;
+             background: #fff;
+             border-radius: 10px;
+             box-shadow: 1px 2px rgba(0, 0, 0, 0.05);
+         }
+         
+         .form_title button .search_img {
+             width: 16px;
+             height: 16px;
+             margin: auto 4px;
+         }
+         
+         .form_title button .shopping_card_img {
+             width: 35px;
+             height: 30px;
+         }
+         
+         .form_title button input {
+             padding: 10px;
+             outline: none;
+             border: none;
+             border-right: 1px solid #000;
+         }
+         /* Nav Section End */
+         /* Banner Section Start */
+         
+         #banner_container {
+             margin-top: 60px;
+             margin-bottom: 80px;
+         }
+         
+         .bike_delivery_btn {
+             background: #F5DDC4;
+             padding: 10px;
+             border: none;
+             border-radius: 25px;
+             color: #F48E28;
+             padding: 10px;
+             margin-bottom: 40px;
+         }
+         
+         .bike_delivery_btn p {
+             display: inline;
+             margin-right: 15px;
+             align-items: center;
+             text-align: center;
+         }
+         
+         .bike_delivery_btn img {
+             width: 20px;
+             height: 20px;
+             border-radius: 25px;
+         }
+         
+         #banner_container {
+             display: flex;
+         }
+         
+         .Abstract_image img {
+             width: 180px;
+             height: auto;
+             margin: 180px auto;
+         }
+         
+         .banner_header h1 {
+             font-size: 40px;
+             font-weight: 700;
+         }
+         
+         .banner_header h1 .font-color {
+             color: #F48E28;
+         }
+         
+         .banner_title {
+             font-size: 40px;
+             font-weight: 800;
+             margin-bottom: 30px;
+         }
+         
+         .banner_header p {
+             font-size: 18px;
+             font-weight: 400;
+             text-align: justify;
+         }
+         
+         .banner_body {
+             font-size: 20px;
+             font-weight: 400;
+             padding: 10px 0px;
+             margin-bottom: 20px;
+         }
+         
+         .order_now_btn {
+             font-size: 20px;
+             font-weight: 400;
+             background: linear-gradient(#EFAB68, #F48E28);
+             padding: 10px 15px;
+             border: none;
+             border-radius: 8px;
+         }
+         
+         .order_process_btn {
+             font-size: 20px;
+             font-weight: 400;
+             padding: 10px 15px;
+             border: none;
+             border-radius: 8px;
+             color: #000;
+             background: #fff;
+             margin-right: 10px;
+         }
+         
+         .banner_card {
+             text-align: center;
+             background: #fff;
+             box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+         }
+         
+         .banner_card img {
+             width: 150px;
+             height: 150px;
+         }
+         
+         .banner_card_container {
+             display: grid;
+             grid-template-columns: repeat(2, 1fr);
+             gap: 20px;
+         }
+         /* Banner Section End */
+         /* Contract Section Start */
+         
+         #contract_container {
+             display: flex;
+             justify-content: space-around;
+             margin-bottom: 100px;
+             background: rgba(255, 255, 255, 1);
+             box-shadow: 2px 2px rgba(0, 0, 0, 0.05);
+             padding: 40px;
+             border: none;
+             border-radius: 10px;
+         }
+         
+         .contract_card {
+             text-align: center;
+             padding-right: 40px;
+         }
+         
+         .l-c img {
+             background: #F48E28;
+             padding: 10px;
+             border-radius: 50%;
+         }
+         
+         .border_contract {
+             border-right: 2px solid #B6B6B6;
+         }
+         /* Contract Section End */
